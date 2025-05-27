@@ -58,3 +58,19 @@ nav a:hover {
 .caption p {
   margin: 5px 0;
 }
+.card {
+  border: none;
+  background: none;
+}
+
+img.jersey-img {
+  width: 100px;
+  margin: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+img.jersey-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #aaa;
+}
