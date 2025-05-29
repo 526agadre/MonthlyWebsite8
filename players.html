@@ -12,7 +12,7 @@
     <nav>
       <span>Argentina National Soccer Team</span>
       <div>
-        <a href="index.html">Home</a>
+        <a href="team.html">Home</a>
         <a href="players.html">Team</a>
       </div>
     </nav>
@@ -21,7 +21,7 @@
 <div class="container my-4">
   <div class="row">
     <div class="col-md-3">
-      <h5>🇦🇷 Argentina's<br>Substitutes:</h5>
+      <h5>Argentina's<br>Substitutes:</h5>
       <ol>
         <li>F. Armani</li>
         <li>N. Otamendi</li>
@@ -45,11 +45,12 @@
 <div class="modal fade" id="playerModal" tabindex="-1" aria-labelledby="playerModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content text-center">
-      <div class="modal-header">
-        <h5 class="modal-title" id="playerModalLabel">Player Name</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-header flex-column">
+        <h5 class="modal-title w-100" id="playerModalLabel">Player Name</h5>
+        <img id="playerModalImage" src="" alt="Player Image" class="img-fluid mb-2" style="max-height: 250px; object-fit: contain;">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body" id="modalBody">Player details go here.</div>
+      <div class="modal-body" id="modalBody">Player details go here</div>
     </div>
   </div>
 </div>
